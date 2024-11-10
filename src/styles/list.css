@@ -1,0 +1,19 @@
+/* list.css */
+.list {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0;
+}
+
+.list-item {
+	background-color: #f9fafb;
+	padding: 10px;
+	border: 1px solid #d1d5db;
+	border-radius: var(--border-radius);
+	margin-bottom: 8px;
+	transition: background-color 0.2s ease;
+}
+
+.list-item:hover {
+	background-color: #e5e7eb;
+}

@@ -1,0 +1,9 @@
+/* input.css */
+.input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #d1d5db;
+	border-radius: var(--border-radius);
+	margin-bottom: 15px;
+	font-size: 16px;
+}

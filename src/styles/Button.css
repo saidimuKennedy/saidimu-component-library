@@ -1,0 +1,25 @@
+/* button.css */
+.button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+/*button variants*/
+/* ` button ${primary} `primary */
+.button.primary {
+	background-color: var(--primary-color);
+	color: white;
+}
+/* ` button ${secondary} `secondary */
+.button.secondary {
+	background-color: var(--secondary-color);
+	color: white;
+}
+/* ` button ${hover} ` hover */
+.button:hover {
+	filter: brightness(0.9);
+}

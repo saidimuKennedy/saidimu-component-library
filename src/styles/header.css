@@ -1,0 +1,18 @@
+/* header.css */
+.header {
+	background-color: var(--primary-color);
+	color: white;
+	padding: 20px;
+	text-align: center;
+	border-radius: var(--border-radius);
+	margin-bottom: 0.5rem;
+}
+
+.header h1 {
+	margin-bottom: 10px;
+}
+
+.header h2 {
+	font-weight: 400;
+	font-size: 18px;
+}

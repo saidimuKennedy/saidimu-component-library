@@ -1,0 +1,9 @@
+/* footer.css */
+.footer {
+	background-color: #374151;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	border-radius: var(--border-radius);
+	margin-top: 30px;
+}
